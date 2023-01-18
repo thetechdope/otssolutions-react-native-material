@@ -23,6 +23,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import RootNavigator from './src/16 Jan/Navigator';
 import TabNavigator from './src/17 Jan/Navigator';
 import DrawerNavigator from './src/17 Jan/Navigator/DemoDrawer';
+import MyNavigator from './src/18 Jan/Navigator';
 
 const App = () => {
 
@@ -39,7 +40,8 @@ const App = () => {
       {/* <DemoStyles /> */}
       <NavigationContainer>
         {/* <RootNavigator /> */}
-        <DrawerNavigator />
+        {/* <DrawerNavigator /> */}
+        <MyNavigator />
       </NavigationContainer>
     </View>
   );
