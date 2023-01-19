@@ -24,6 +24,9 @@ import RootNavigator from './src/16 Jan/Navigator';
 import TabNavigator from './src/17 Jan/Navigator';
 import DrawerNavigator from './src/17 Jan/Navigator/DemoDrawer';
 import MyNavigator from './src/18 Jan/Navigator';
+import LocationDemo from './src/19 Jan/LocationDemo';
+import CameraAndGalleryAccess from './src/19 Jan/CameraAndGalleryAccess';
+import DemoAnimation from './src/19 Jan/DemoAnimation';
 
 const App = () => {
 
@@ -38,11 +41,14 @@ const App = () => {
       {/* <DemoImageBackground /> */}
       {/* <DemoInput /> */}
       {/* <DemoStyles /> */}
-      <NavigationContainer>
-        {/* <RootNavigator /> */}
-        {/* <DrawerNavigator /> */}
+      {/* <NavigationContainer>
+        <RootNavigator />
+        <DrawerNavigator />
         <MyNavigator />
-      </NavigationContainer>
+      </NavigationContainer> */}
+      {/* <LocationDemo /> */}
+      {/* {<CameraAndGalleryAccess />} */}
+      <DemoAnimation />
     </View>
   );
 };
